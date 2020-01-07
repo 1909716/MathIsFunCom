@@ -9,12 +9,13 @@
 
     <TextView
         android:id="@+id/appTitle"
-        android:layout_width="304dp"
-        android:layout_height="111dp"
-        android:text="@string/app_name"
+        android:layout_width="324dp"
+        android:layout_height="106dp"
+        android:text="@string/app_slogan"
         android:textColor="@android:color/white"
         android:textSize="@dimen/appTitleSize"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="171dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
