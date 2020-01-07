@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MathIsFunCom</string>
+    <string name="app_title">Math is Fun.Com</string>
+    <string name="app_slogan">Learning was never so fun</string>
 </resources>
