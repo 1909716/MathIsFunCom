@@ -5,7 +5,8 @@
     <string name="test_button">Test</string>
     <string name="learn_button">Learn</string>
     <string name="challenge_button">Challenge</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addition_button">Addition</string>
+    <string name="subtraction_button">Subtraction</string>
+    <string name="multiply_button">Multiply</string>
+    <string name="division_button">Division</string>
 </resources>

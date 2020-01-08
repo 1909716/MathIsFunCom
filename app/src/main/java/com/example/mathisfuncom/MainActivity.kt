@@ -10,16 +10,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnStart = findViewById(R.id.startButton) as Button
-        val btnQuit = findViewById(R.id.quitButton) as Button
+        val btnStart = findViewById<Button>(R.id.startButton)
+        val btnQuit = findViewById<Button>(R.id.quitButton)
+        //val btnLearn = findViewById<Button>(R.id.learnButton)
 
         btnStart.setOnClickListener{
             setContentView(R.layout.menu)
+
         }
 
         btnQuit.setOnClickListener{
             System.exit(-1)
         }
+
 
     }
 
