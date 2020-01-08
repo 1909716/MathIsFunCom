@@ -5,4 +5,7 @@
     <string name="test_button">Test</string>
     <string name="learn_button">Learn</string>
     <string name="challenge_button">Challenge</string>
+    <string name="easy_button">Easy</string>
+    <string name="medium_button">Medium</string>
+    <string name="hard_button">Hard</string>
 </resources>
