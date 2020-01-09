@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/math_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".learnDivisionActivity"></activity>
+        <activity android:name=".menuActivity"></activity>
+        <activity android:name=".learnDivisionActivity" />
         <activity android:name=".learnMultiplyActivity" />
         <activity android:name=".learnSubtractionActivity" />
         <activity android:name=".learnAdditionActivity" />
