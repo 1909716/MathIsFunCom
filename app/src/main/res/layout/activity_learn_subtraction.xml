@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".learnAdditionActivity"
+    tools:context=".learnSubtractionActivity"
     android:background="@drawable/background">
 
 
     <TextView
-        android:id="@+id/additionTitle"
+        android:id="@+id/subtractionTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:gravity="center"
-        android:text="@string/addition_button"
+        android:text="@string/subtraction_button"
         android:textColor="@android:color/white"
         android:textSize="64sp"
         android:textStyle="bold"
@@ -28,7 +28,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/additionTitle">
+        app:layout_constraintTop_toBottomOf="@+id/subtractionTitle">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,138 +36,191 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/addText1"
+                android:id="@+id/subText1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:gravity="center"
-                android:text="@string/addText1"
-                android:textColor="@android:color/white"
-                android:textSize="32sp"
-                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
-
-            <TextView
-                android:id="@+id/addText2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:gravity="center"
-                android:text="@string/addText2"
+                android:text="@string/subText1"
                 android:textColor="@android:color/white"
                 android:textSize="32sp"
                 android:textStyle="bold"
-                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
-
-            <ImageView
-                android:id="@+id/addImage1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@+id/addText1"
-                app:srcCompat="@drawable/add_img1"
-                tools:layout_editor_absoluteX="210dp" />
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
 
             <TextView
-                android:id="@+id/addText3"
+                android:id="@+id/subText2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:gravity="center"
-                android:text="@string/addText3"
-                android:textColor="@android:color/white"
-                android:textSize="32sp"
-                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
-
-            <TextView
-                android:id="@+id/addText4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:gravity="center"
-                android:text="@string/addText4"
-                android:textColor="@android:color/white"
-                android:textSize="32sp"
-                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
-
-            <ImageView
-                android:id="@+id/addImage2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@+id/addText1"
-                app:srcCompat="@drawable/add_img2"
-                tools:layout_editor_absoluteX="210dp" />
-
-            <TextView
-                android:id="@+id/addText5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:gravity="center"
-                android:text="@string/addText5"
+                android:text="@string/subText2"
                 android:textColor="@android:color/white"
                 android:textSize="32sp"
                 android:textStyle="bold"
-                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
 
             <TextView
-                android:id="@+id/addText6"
+                android:id="@+id/subText3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:gravity="center"
-                android:text="@string/addText6"
-                android:textColor="@android:color/white"
-                android:textSize="32sp"
-                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
-
-            <ImageView
-                android:id="@+id/addImage3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@+id/addText1"
-                app:srcCompat="@drawable/add_img3"
-                tools:layout_editor_absoluteX="210dp" />
-
-            <TextView
-                android:id="@+id/addText7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:gravity="center"
-                android:text="@string/addText7"
+                android:text="@string/subText3"
                 android:textColor="@android:color/white"
                 android:textSize="32sp"
                 android:textStyle="bold"
-                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
 
             <TextView
-                android:id="@+id/addText8"
+                android:id="@+id/subText4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:gravity="center"
-                android:text="@string/addText8"
+                android:text="@string/subText4"
                 android:textColor="@android:color/white"
                 android:textSize="32sp"
-                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
 
-            <ImageView
-                android:id="@+id/addImage4"
+            <TextView
+                android:id="@+id/subText5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@+id/addText1"
-                app:srcCompat="@drawable/add_img4"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/subText5"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
+
+            <TextView
+                android:id="@+id/subText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/subText6"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
+
+            <TextView
+                android:id="@+id/subText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/subText7"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
+
+            <TextView
+                android:id="@+id/subText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/subText8"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
+
+            <TextView
+                android:id="@+id/subText9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/subText9"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
+
+            <TextView
+                android:id="@+id/subText10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/subText10"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
+
+            <TextView
+                android:id="@+id/subText11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/subText11"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
+
+            <ImageView
+                android:id="@+id/subImage1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/subText1"
+                app:srcCompat="@drawable/sub_img1"
                 tools:layout_editor_absoluteX="210dp" />
 
             <TextView
-                android:id="@+id/addText9"
+                android:id="@+id/subText12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:gravity="center"
-                android:text="@string/addText9"
+                android:text="@string/subText12"
                 android:textColor="@android:color/white"
                 android:textSize="32sp"
-                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
+
+            <ImageView
+                android:id="@+id/subImage2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/subText1"
+                app:srcCompat="@drawable/sub_img2"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/subText13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/subText13"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
+
+            <ImageView
+                android:id="@+id/subImage3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/subText1"
+                app:srcCompat="@drawable/sub_img3"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/subText14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/subText14"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/subtractionTitle" />
+
 
         </LinearLayout>
     </ScrollView>

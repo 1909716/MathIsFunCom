@@ -19,8 +19,65 @@
     <string name="addText7">Step 3: Add together the numbers in the tens column, remembering to include the 2 that was carried over. You should get an an answer of 14.</string>
     <string name="addText8">That is 4 tens (as we are working in the tens column) and 1 to carry over to the next column, hundreds.</string>
     <string name="addText9">There are no numbers in the hundreds column except for the 1 that was carried over from the tens column.
+        As there is nothing else to add bring the one up to the total.
+        We have no numbers left to add and therefore have arrived at our answer: 143.</string>
 
-As there is nothing else to add bring the one up to the total.
+    <string name="subText1">When subtracting, unlike addition, the order of numbers does matter – the first number is the number you are subtracting from, subsequent numbers can be in any order.</string>
+    <string name="subText2">10-5 is different to 5-10</string>
+    <string name="subText3">10-5 = 5 whereas 5-10 = -5</string>
+    <string name="subText4">When numbers of equal value are subtracted from each other the result is always 0.  19-19 = 0</string>
+    <string name="subText5">When subtracting 0 from any number the number remains unchanged. 19-0 = 19</string>
+    <string name="subText6">Simple subtraction can be easily learned in the same way as addition, by counting:</string>
+    <string name="subText7">If Phoebe has 9 sweets and Luke has 5 sweets what is the difference?</string>
+    <string name="subText8">Starting with the smaller number (5) and count up to the larger number (9).
+        6 (1), 7 (2),  8 (3),  9 (4).
+        Phoebe has 4 more sweets than Luke, the difference in sweets is 4.
+        So: 9 - 5 = 4.</string>
+    <string name="subText9">For more complex subtraction, where using counting is not appropriate, it is useful to write our numbers one above the other – similar to an addition sum.</string>
+    <string name="subText10">Suppose that Mike earns RM755 a week and pays RM180 a week for rent.  How much money does Mike have left after he has paid his rent?</string>
+    <string name="subText11">In this example we are going to take RM180 away from RM755, the sum should be written with the starting number on top and the number we are taking away underneath.</string>
+    <string name="subText12">Step 1: Subtract the numbers in the right (units) column. 5 - 0 = 5.</string>
+    <string name="subText13">Step 2: Subtract the numbers in the next (tens) column. 5 - 8 will not work as 8 is larger than 5 and we would end up with a negative number. We need to borrow a number from the hundreds column. Take 1 away from the 7 in the hundreds column leaving a 6, bring the 1 in front of the 5 in the tens column making 15. Take 8 away from 15, put the answer (7) in the total for the tens column.</string>
+    <string name="subText14">Step 3: Finally take 1 away from 6 in the hundreds column. 6 - 1 = 5, so put a 5 in the answer of the hundreds column.</string>
 
-We have no numbers left to add and therefore have arrived at our answer: 143.</string>
+    <string name="mulText1">For simple and quick multiplication it is useful to memorise the multiplication or \'times table’ as shown below.   This table gives the answers to all multiplication sums up to 10 × 10.  To find the answer to 4 × 6 for example find 4 on the top (red shaded) line and find 6 on the left hand (red shaded) column – the point where the two lines intercept is the answer:  24.</string>
+    <string name="mulText2">It doesn\'t matter which way around you search for the numbers, if you find 4 in the first column and 6 in the first row you get the same answer, 24.</string>
+    <string name="mulText3">By using the table above you can quickly calculate the answer to the following problem. Megan is taking her three brothers to the cinema, she needs to buy 4 tickets in total, and each ticket costs RM8. How much will the total cost of the trip be? The sum here is 4 × 8.</string>
+    <string name="mulText4">Find 4 on the vertical red column and 8 on the horizontal red column, the answer is in the cell where the two lines intercept: 32. The cost of the trip to the cinema will therefore be RM32.</string>
+    <string name="mulText5">Often it is necessary to multiply numbers that are bigger than 10 and therefore the above multiplication table cannot give an immediate answer. However we can still use the multiplication table to make the calculation easier.</string>
+    <string name="mulText6">Lisa runs a catering business, she has to deliver sandwiches to 23 businesses each with 14 employees – assuming each employee eats one sandwich how many sandwiches does Lisa have to make?</string>
+    <string name="mulText7">The sum we need to preform here is 23 × 14 (that is 23 businesses each needing 14 sandwiches). As we have already discovered we could write the sum the other way around 14 × 23 – the answer will be the same.</string>
+    <string name="mulText8">First write your numbers in columns representing hundreds, tens and units</string>
+    <string name="mulText9">Next, starting in the right hand column (units) multiply 4 and 3 – refer to the multiplication table above if needed. Write your answer underneath your sum.</string>
+    <string name="mulText10">The blue numbers are the ones we are currently working on and the pink numbers are the partial answer.</string>
+    <string name="mulText11">Next multiply the 4 by the next number across (in the tens column) 2 or 20. Write your answer underneath in the tens column. The answer is written into the tens column (8) as we are working in the tens column above. Add a zero to the units column for clarity.</string>
+    <string name="mulText12">Next move to the tens column of the bottom number and repeat the steps above. However, as we have moved over a column we must remember to write zeros in the first column. Work out 1 × 3.</string>
+    <string name="mulText13">The final multiplication we need to preform is 1 × 2. Both the numbers from the tens column, this being so we need to write our answer in the hundred’s column and add zero’s (for clarity) to the tens and units column.</string>
+    <string name="mulText14">At this stage we have finished our multiplication; the only step that remains is to add up all our answers (pink numbers) to find the total number of sandwiches needed</string>
+    <string name="mulText15">12 + 80 + 30 + 200 = 322. We have calculated that Lisa needs to make a total of 322 sandwiches.</string>
+    <string name="mulText16">The above example shows how to perform a multiplication sum split into all possible parts, as confidence improves it is possible to skip steps.</string>
+    <string name="mulText17">We could for example multiply the 4 by 23 by breaking the sum down:</string>
+    <string name="mulText18">4 × 20 = 80</string>
+    <string name="mulText19">4 × 3 = 12</string>
+    <string name="mulText20">80 + 12 = 92</string>
+    <string name="mulText21">Then the same for the second column:</string>
+    <string name="mulText22">10 × 23 = 230</string>
+    <string name="mulText23">Finally we add our two answers:</string>
+    <string name="mulText24">92 + 230 = 322.</string>
+    <string name="mulText25">Multiplication Table</string>
+
+    <string name="divText1">Although you can quickly preform division sums on a calculator by learning how to calculate division manually can help in situations when you don\'t have a calculator to hand or don\'t want to use one. Division sums can look daunting but in fact, as with most mathematics, they are logical.</string>
+    <string name="divText2">Dave’s car needs new tyres, all four driving tyres and the spare need to be replaced.</string>
+    <string name="divText3">Dave has had a quote from a local garage for RM480 to include the tyres, fitting and disposal of the old tyres.  How much does each tyre cost?</string>
+    <string name="divText4">The problem we need to calculate here is 480 ÷ 5. This is the same as saying how many times will 5 go into 480?</string>
+    <string name="divText5">Traditionally division sums are written like:</string>
+    <string name="divText6">We start by dividing 5 by 4 and immediately hit a problem. 5 does not divide by 4 to leave a whole number, as 5 is greater than 4. We are only interested in whole numbers and as 5 does not go into 4 we put a 0 in the first (hundreds) column.</string>
+    <string name="divText7">The next step is to use the next number to see how many times 5 goes into 48.</string>
+    <string name="divText8">5 does go into 48 as 48 is greater than 5, however we need to know how many times it goes.</string>
+    <string name="divText9">If we refer to our multiplication table we can see that 9 × 5 = 45 and 10 × 5 = 50.</string>
+    <string name="divText10">48; the number we\'re looking for falls between these two values.  We take the lower value as it is smaller than 48 and therefore will go.  5 goes into 45 9 times, but not exactly as it leaves a remainder of 3.  The remainder what is left when we subtract the number we have found from the number we are dividing into: 48 - 45 = 3.</string>
+    <string name="divText11">So 5 × 9 = 45, + 3 to get 48.</string>
+    <string name="divText12">We can enter 9 as our answer for the second part of the sum and bring our remainder in front of our last number.  Our last number becomes 30.</string>
+    <string name="divText13">We now divide 30 by 5 or find out how many times 5 goes into 30. Using our multiplication table we can see the answer is exactly 6, with no remainder.  5 × 6 = 30.</string>
+    <string name="divText14">As there are no remainders left we have finished the sum and have the answer 96.  Dave’s new tyres are going to cost RM96 each.  480 ÷ 5 = 96 and 96 × 5 = 480.</string>
 </resources>

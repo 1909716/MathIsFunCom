@@ -1,5 +1,6 @@
 package com.example.mathisfuncom
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -14,8 +15,10 @@ class MainActivity : AppCompatActivity() {
         val btnStart = findViewById<Button>(R.id.startButton)
         val btnQuit = findViewById<Button>(R.id.quitButton)
 
+
         btnStart.setOnClickListener{
-            setContentView(R.layout.activity_learn_addition)
+            val intent = Intent(this,learnCategoryActivity::class.java)
+            startActivity(intent)
 
         }
 
