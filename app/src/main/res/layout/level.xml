@@ -10,17 +10,17 @@
         tools:context=".MainActivity">
 
         <Button
-            android:id="@+id/testButton"
+            android:id="@+id/easyButton"
             android:layout_width="250dp"
             android:layout_height="75dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_marginTop="300dp"
             android:background="@drawable/button_border"
-            android:text="@string/test_button"
+            android:text="@string/easy_button"
             android:textColor="@android:color/white"
             android:textSize="36sp"
-            app:layout_constraintBottom_toTopOf="@+id/learnButton"
+            app:layout_constraintBottom_toTopOf="@+id/mediumButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
             tools:ignore="MissingConstraints" />
 
         <Button
-            android:id="@+id/learnButton"
+            android:id="@+id/mediumButton"
             android:layout_width="250dp"
             android:layout_height="75dp"
             android:layout_centerHorizontal="true"
@@ -36,32 +36,40 @@
             android:layout_marginTop="25dp"
             android:layout_marginBottom="25dp"
             android:background="@drawable/button_border"
-            android:text="@string/learn_button"
+            android:text="@string/medium_button"
             android:textColor="@android:color/white"
             android:textSize="36sp"
-            app:layout_constraintBottom_toTopOf="@+id/challengeButton"
+            app:layout_constraintBottom_toTopOf="@+id/hardButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/testButton"
+            app:layout_constraintTop_toBottomOf="@+id/easyButton"
             tools:ignore="MissingConstraints" />
 
         <Button
-            android:id="@+id/challengeButton"
+            android:id="@+id/hardButton"
             android:layout_width="250dp"
             android:layout_height="75dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_marginBottom="100dp"
             android:background="@drawable/button_border"
-            android:text="@string/challenge_button"
+            android:text="@string/hard_button"
             android:textColor="@android:color/white"
             android:textSize="36sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/learnButton"
+            app:layout_constraintTop_toBottomOf="@+id/mediumButton"
             tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

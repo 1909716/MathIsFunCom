@@ -16,7 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".Menu"></activity>
+
+        <activity android:name=".Categories"></activity>
+
+        <activity android:name=".Level"
+                  android:parentActivityName=".Categories"></activity>
+
+        <activity android:name=".Test"
+            android:parentActivityName=".Level"></activity>
     </application>
 
 </manifest>
