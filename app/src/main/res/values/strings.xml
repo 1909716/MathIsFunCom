@@ -9,4 +9,18 @@
     <string name="subtraction_button">Subtraction</string>
     <string name="multiply_button">Multiply</string>
     <string name="division_button">Division</string>
+
+    <string name="addText1">When adding lots of numbers together it is helpful to write them in columns, denoting units, tens and hundreds. If we needed to add 4, 15, 23, 24, 35, 42</string>
+    <string name="addText2">Step 1: Arrange the numbers in columns, Hundreds, Tens and Units as needed:</string>
+    <string name="addText3">Add the numbers in the right (units) column. This should give you an answer of 23. Two tens and three units.  Write a 3 in the your total for the units column.</string>
+    <string name="addText4">Carry over the 2 tens - it is usual to put this number underneath the total, we\'ll need it in the next step.</string>
+    <string name="addText5">Step 2: Add together the numbers in the tens column remembering to include the 2 that was carried over.  You should get an an answer of 14.</string>
+    <string name="addText6">That is 4 tens (as we are working in the tens column) and 1 to carry over to the next column, hundreds.</string>
+    <string name="addText7">Step 3: Add together the numbers in the tens column, remembering to include the 2 that was carried over. You should get an an answer of 14.</string>
+    <string name="addText8">That is 4 tens (as we are working in the tens column) and 1 to carry over to the next column, hundreds.</string>
+    <string name="addText9">There are no numbers in the hundreds column except for the 1 that was carried over from the tens column.
+
+As there is nothing else to add bring the one up to the total.
+
+We have no numbers left to add and therefore have arrived at our answer: 143.</string>
 </resources>
