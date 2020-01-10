@@ -16,6 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Menu"></activity>
+
+        <activity android:name=".Categories"></activity>
+
+        <activity android:name=".Level"></activity>
+
+        <activity android:name=".Test"></activity>
+
+        <activity android:name=".learnDivisionActivity" />
+        <activity android:name=".learnMultiplyActivity" />
+        <activity android:name=".learnSubtractionActivity" />
+        <activity android:name=".learnAdditionActivity" />
+        <activity android:name=".learnCategoryActivity" />
     </application>
 
 </manifest>
