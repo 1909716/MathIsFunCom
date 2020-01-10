@@ -5,10 +5,6 @@
     <string name="test_button">Test</string>
     <string name="learn_button">Learn</string>
     <string name="challenge_button">Challenge</string>
-    <string name="easy_button">Easy</string>
-    <string name="medium_button">Medium</string>
-    <string name="hard_button">Hard</string>
-
     <string name="addition_button">Addition</string>
     <string name="subtraction_button">Subtraction</string>
     <string name="multiply_button">Multiply</string>
@@ -84,5 +80,4 @@
     <string name="divText12">We can enter 9 as our answer for the second part of the sum and bring our remainder in front of our last number.  Our last number becomes 30.</string>
     <string name="divText13">We now divide 30 by 5 or find out how many times 5 goes into 30. Using our multiplication table we can see the answer is exactly 6, with no remainder.  5 × 6 = 30.</string>
     <string name="divText14">As there are no remainders left we have finished the sum and have the answer 96.  Dave’s new tyres are going to cost RM96 each.  480 ÷ 5 = 96 and 96 × 5 = 480.</string>
-
 </resources>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".learnMultiplyActivity"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/multiplyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/multiply_button"
+        android:textColor="@android:color/white"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-3dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/multiplyTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mulText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText1"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText2"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText25"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <ImageView
+                android:id="@+id/mulImage1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/mulText1"
+                app:srcCompat="@drawable/mul_img1"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/mulText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText3"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText4"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText5"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText6"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText7"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText8"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <ImageView
+                android:id="@+id/mulImage2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/mulText1"
+                app:srcCompat="@drawable/mul_img2"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/mulText10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText9"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText10"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <ImageView
+                android:id="@+id/mulImage3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/mulText1"
+                app:srcCompat="@drawable/mul_img3"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/mulText12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText11"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <ImageView
+                android:id="@+id/mulImage4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/mulText1"
+                app:srcCompat="@drawable/mul_img4"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/mulText13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText12"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <ImageView
+                android:id="@+id/mulImage5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/mulText1"
+                app:srcCompat="@drawable/mul_img5"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/mulText14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText13"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <ImageView
+                android:id="@+id/mulImage6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/mulText1"
+                app:srcCompat="@drawable/mul_img6"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/mulText15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText14"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <ImageView
+                android:id="@+id/mulImage7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/mulText1"
+                app:srcCompat="@drawable/mul_img7"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/mulText16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText15"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText16"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText17"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText18"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText19"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText20"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <ImageView
+                android:id="@+id/mulImage8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/mulText1"
+                app:srcCompat="@drawable/mul_img8"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/mulText22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText21"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <TextView
+                android:id="@+id/mulText23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText22"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <ImageView
+                android:id="@+id/mulImage9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/mulText1"
+                app:srcCompat="@drawable/mul_img9"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/mulText24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText23"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+            <ImageView
+                android:id="@+id/mulImage10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/mulText1"
+                app:srcCompat="@drawable/mul_img10"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/mulText25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/mulText24"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/multiplyTitle" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

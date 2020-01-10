@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".learnAdditionActivity"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/additionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/addition_button"
+        android:textColor="@android:color/white"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-3dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/additionTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/addText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/addText1"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
+
+            <TextView
+                android:id="@+id/addText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/addText2"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
+
+            <ImageView
+                android:id="@+id/addImage1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/addText1"
+                app:srcCompat="@drawable/add_img1"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/addText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/addText3"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
+
+            <TextView
+                android:id="@+id/addText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/addText4"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
+
+            <ImageView
+                android:id="@+id/addImage2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/addText1"
+                app:srcCompat="@drawable/add_img2"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/addText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/addText5"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
+
+            <TextView
+                android:id="@+id/addText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/addText6"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
+
+            <ImageView
+                android:id="@+id/addImage3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/addText1"
+                app:srcCompat="@drawable/add_img3"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/addText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/addText7"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
+
+            <TextView
+                android:id="@+id/addText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/addText8"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
+
+            <ImageView
+                android:id="@+id/addImage4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/addText1"
+                app:srcCompat="@drawable/add_img4"
+                tools:layout_editor_absoluteX="210dp" />
+
+            <TextView
+                android:id="@+id/addText9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/addText9"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toBottomOf="@+id/additionTitle" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -26,20 +26,18 @@ class Test : AppCompatActivity(), OnClickListener {
         setContentView(R.layout.test)
         val strCat = intent.getStringExtra("Category")
         val strLevel = intent.getStringExtra("Level")
-        textView2.text = strCat
-        textView3.text = strLevel
 
         level = Integer.parseInt(strLevel)
         cat = strCat
-        
+
         generateQuestion()
-        
+
 
         btn_answer1.setOnClickListener(this)
         btn_answer2.setOnClickListener(this)
         btn_answer3.setOnClickListener(this)
         btn_answer4.setOnClickListener(this)
-        }
+    }
 
     private fun generateQuestion(){
 
@@ -52,7 +50,7 @@ class Test : AppCompatActivity(), OnClickListener {
         else if(cat=="÷")
             generateDivideQuestion()
     }
-    
+
     private fun generateAddQuestion() {
 
 
@@ -188,4 +186,3 @@ class Test : AppCompatActivity(), OnClickListener {
     }
 
 }
-

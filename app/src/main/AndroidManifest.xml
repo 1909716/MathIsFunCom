@@ -21,11 +21,15 @@
 
         <activity android:name=".Categories"></activity>
 
-        <activity android:name=".Level"
-                  android:parentActivityName=".Categories"></activity>
+        <activity android:name=".Level"></activity>
 
-        <activity android:name=".Test"
-            android:parentActivityName=".Level"></activity>
+        <activity android:name=".Test"></activity>
+
+        <activity android:name=".learnDivisionActivity" />
+        <activity android:name=".learnMultiplyActivity" />
+        <activity android:name=".learnSubtractionActivity" />
+        <activity android:name=".learnAdditionActivity" />
+        <activity android:name=".learnCategoryActivity" />
     </application>
 
 </manifest>

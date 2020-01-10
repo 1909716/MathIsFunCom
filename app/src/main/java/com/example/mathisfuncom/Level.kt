@@ -20,7 +20,6 @@ class Level : AppCompatActivity() {
         val buttonEasy = findViewById<View>(R.id.easyButton)
         val buttonMedium = findViewById<View>(R.id.mediumButton)
         val buttonHard = findViewById<View>(R.id.hardButton)
-        textView.text = strCat
 
         buttonEasy.setOnClickListener {
             val intent = Intent(this, Test::class.java)
